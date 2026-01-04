@@ -1,0 +1,6 @@
+Timestamp,Prompt,Tokens,ResponseTime
+2023-06-08 10:00:00,Generate a poem,42,2.1
+2023-06-08 10:02:00,Write an email,57,1.9
+2023-06-08 10:05:00,Summarize article,89,3.2
+2023-06-08 10:08:00,Code review,156,4.5
+2023-06-08 10:10:00,Data analysis,234,5.8
