@@ -1,0 +1,8 @@
+fastapi
+pydantic
+sqlalchemy
+uvicorn
+langchain
+langchain-google-genai
+python-dotenv
+langgraph-checkpoint-sqlite
