@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from db.database import engine,Base
-from routers import blog
+from routers import blog,AIChat
 
 app=FastAPI(
     title="Blog Management System"
@@ -8,6 +8,7 @@ app=FastAPI(
 
 Base.metadata.create_all(bind=engine)
 app.include_router(blog.router)
+app.include_router(AIChat.router)
 
 @app.get("/")
 def root():
