@@ -1,0 +1,31 @@
+#Container{
+    background-color:lightblue;
+    color:blue;
+    display:flex;
+    height:auto;
+    width:50%;
+}
+
+#Container>div{
+    border:none;
+    margin:10px;
+    padding:20px;
+    background-color:white;
+    font-family:calibri;
+    text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Container>div>button{
+    margin-top:25px;
+    padding:10px;
+    border:1px solid blue;
+    color:blue;
+    background-color:transparent;
+    font-size:16px;
+    border-radius: 5px;
+}
+    
+p{
+    color:gray;
+}
