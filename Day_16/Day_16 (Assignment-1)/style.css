@@ -1,0 +1,33 @@
+#Container{
+    background-color: rgb(237, 243, 243);
+    padding: 20px;
+    width:fit-content;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 30px;
+}
+
+#Container>div{
+    text-align:center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Container >div>img{
+    width:100%;
+}    
+
+img{
+    height:400px;
+    width:600px;
+    border-radius: 5px;
+}
+
+p{
+    color: grey;
+    justify-content: space-between;
+}
+
+span{
+    color:rgb(53, 182, 233);
+    font-weight: bold;
+}
