@@ -1,0 +1,66 @@
+#Container{
+    height:660px;
+    width:1150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:20px;
+    padding-top:5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(247, 239, 239);
+}
+
+#Courses{
+    gap:10px;  
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto; 
+    margin:40px 35px 35px 40px ; 
+    height:460px;
+    width:auto;
+    padding:20px;
+    padding-bottom:15px;
+    row-gap:5px;
+    background-color:rgb(207, 204, 204);
+}
+
+#Courses>div{
+    gap:3px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05);
+    border-radius:5px;
+    height: 220px;
+    width:150px ;
+}
+
+#Courses>div:nth-child(2){
+    background-color:rgb(30, 178, 166);
+}
+
+h1{
+    color:rgb(44, 44, 44);
+    text-align:center;
+    margin-top:-25px;
+    font-size:45px;
+}
+
+h3{
+    text-align:center;
+    color:black;
+    margin-bottom:-5px;
+}
+
+h4{
+    color:rgb(30, 178, 166);
+    text-align:center;
+    font-size:25px;
+    margin-top:5px;
+}
+
+button{
+    color:rgb(30, 178, 166);
+    font-size:15px;
+    border:none;
+}
