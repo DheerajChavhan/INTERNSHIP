@@ -60,7 +60,6 @@ def chat_with_ai(request:ChatRequest):
             status_code=500,detail=f"Error Processsing Request:{e}"
         )    
         
-
 @router.delete("/chat/history")
 def clear_chat_history():
     conn=sqlite3.connect(DB_PATH,check_same_thread=False)
