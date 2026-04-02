@@ -18,6 +18,7 @@ p{
     border-radius:20px;
     background-color: pink;
 }    
+
 ul>li{
     list-style-type: "✅";
     margin-bottom:4px;
