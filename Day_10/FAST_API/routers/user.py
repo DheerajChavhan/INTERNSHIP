@@ -15,4 +15,3 @@ def get_user(username:str):
 @router.get("/{username}/post/{post_id}")
 def get_user(username:str,post_id:int):
     return {f"Post {post_id} is posted by {username}"}
- 
