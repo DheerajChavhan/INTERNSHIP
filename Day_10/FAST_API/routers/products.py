@@ -12,9 +12,6 @@ def get_products(
 
 class ProductModel(BaseModel):
     product_id:int
-    
-
-
 
 @router.post("/{product_id}")
 def create_product(product_id:int,product:ProductModel,confirmed:Optional[bool]:False):
