@@ -45,4 +45,3 @@ def get_order(order:OrderModel):
             "Total_Amount":total
         }
     }   
-    
