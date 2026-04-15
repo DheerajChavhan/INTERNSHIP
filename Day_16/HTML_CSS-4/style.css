@@ -11,6 +11,7 @@
 #container >div:nth-child(1){
     background-color: yellow;
 }
+
 #container >div:nth-child(2){
     background-color: red;
 }
